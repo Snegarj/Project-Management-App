@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from "react";
 import { Button } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
 import MyVerticallyCenteredModal from './UpdateTask';
-import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
 import Context, { BASE_URL } from "../constants";
 

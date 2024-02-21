@@ -2,11 +2,8 @@ import React, { useState, useEffect, useContext } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import { useSelector } from "react-redux";
-import {useDispatch} from 'react-redux';
 import Context, { BASE_URL } from "../constants";
 import axios from "axios";
-// import { updateTaskInServer } from './../slices/tasksSlice';
 
 const MyVerticallyCenteredModal = (props) => {
   const {storeTitle,updateStore, setupdateStore,setstoreDescription, setSelectedTask, selectedTask, setstoreTitle, storeDescription} = useContext(Context);

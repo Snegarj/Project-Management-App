@@ -1,8 +1,6 @@
 import React, { useContext, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-// import { addTaskToServer } from "../slices/tasksSlice";
-import { useDispatch } from 'react-redux'
 import axios from 'axios';
 import Context, { BASE_URL } from "../constants";
 const AddTask = () => {
