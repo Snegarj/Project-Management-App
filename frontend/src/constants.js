@@ -3,4 +3,4 @@ const Context = React.createContext();
 
 export default(Context)
 
-export const BASE_URL = 'http://localhost:4000/api/tasks';
+export const BASE_URL = 'https://mern-crud-rgf7.onrender.com/api/tasks';
